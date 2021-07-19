@@ -2,7 +2,7 @@
 
 /* Large Enough, will fill entire page */
 body {
-  background-image: url('https://images.pexels.com/photos/235767/pexels-photo-235767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: url('images/leaves.jpg');
 }
 
 /* Otherwise it will repeat */
