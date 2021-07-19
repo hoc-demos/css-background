@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:300,400,600|Roboto:300,400,700');
+
+/* Large Enough, will fill entire page */
+body {
+  background-image: url('https://images.pexels.com/photos/235767/pexels-photo-235767.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+/* Otherwise it will repeat */
+/* body {
+  background-image: url('images/mouse.jpg'); 
+} */
+
+/* Add backgroud-repeat: no-repeat */
+/* body {
+  background-image: url('images/mouse.jpg');
+  background-repeat:no-repeat; 
+} */
+
+/* Add backgroud-repeat: no-repeat 
+   And background-size: cover to take up entire screen
+   And attachment:fixed to prevent stretching
+*/
+/* body {
+  background-image: url('images/mouse.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+} */
+
+
+main {
+  padding:30px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  color:white;
+  font-size:48px;
+}
